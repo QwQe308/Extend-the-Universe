@@ -197,7 +197,7 @@ addLayer("b", { //这是代码中的节点代码 例如player.p可以调用该�
         },
     },
     update(diff){
-        if(player.b.m.isInfinite() || player.b.am.isInfinite() || player.b.m.lte(1) || player.b.am.lte(1) || player.b.m.isNaN() || player.b.m.isNaN()){
+        if(player.b.m.isInfinite() || player.b.am.isInfinite() || player.b.m.isNaN() || player.b.m.isNaN()){
             layerDataReset(this.layer)
             player.points = n(0)
         }
