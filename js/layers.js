@@ -26,7 +26,7 @@ addLayer("b", { //这是代码中的节点代码 例如player.p可以调用该�
     type: "none", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
     row: 1, // Row the layer is in on the tree (0 is the first row)  QwQ:1也可以当第一排
     layerShown(){return true},
-    effectDescription(){return `宇宙开始扩张...<br>心情不好做的 自闭了就关了吧<br>请勿让任何物体消失,否则会导致宇宙塌缩.`},
+    effectDescription(){return `宇宙开始扩张...<br>心情不好做的 自闭了就关了吧<br>请勿让任何物体膨胀至无限大,否则会导致宇宙塌缩.`},
     clickables:{
         11:{
             display(){
