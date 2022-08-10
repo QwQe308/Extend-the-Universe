@@ -1,7 +1,7 @@
 ﻿let modInfo = {
-	name: "树名",
-	id: "存档id(必须要写一个独一无二的id以防止存档冲突)",
-	author: "作者",
+	name: "拓展宇宙",
+	id: "Extend-the-Universe",
+	author: "QwQe308",
 	pointsName: "",
 	discordName: "",
 	discordLink: "",
